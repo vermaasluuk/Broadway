@@ -11,6 +11,15 @@ header {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
 
+/* FOOTER */
+
+footer p {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+  text-align: left;
+}
+
 /* NAVIGATION */
 
 li {
@@ -20,14 +29,35 @@ li {
   padding-bottom: 10px;
 }
 
-li a {
+a {
   color: white;
 }
 
 /* HEADINGS */
 
-h1{
+h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
 }
